@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.17.2 (2024-07-19)
+
+### Bug Fixes
+
+* Fix open redirect vulnerability for `localePrefix: 'as-necessary'` by sanitizing pathname in the middleware ([#1208](https://github.com/amannn/next-intl/issues/1208)) ([f42ac01](https://github.com/amannn/next-intl/commit/f42ac014c8a01124ab4eba46652a5224c5d7698e)), closes [#1207](https://github.com/amannn/next-intl/issues/1207) – by @hblee12294
+
+## 3.17.1 (2024-07-15)
+
+### Bug Fixes
+
+* Apply `useMemo` for `useRouter` returned from `createLocalizedPathnamesNavigation` to keep a stable reference when possible ([#1201](https://github.com/amannn/next-intl/issues/1201)) ([a1b9a36](https://github.com/amannn/next-intl/commit/a1b9a3680b2a0d7f5b77f8571787ea8d66043852)), closes [#1198](https://github.com/amannn/next-intl/issues/1198) – by @amannn
+
 ## 3.17.0 (2024-07-12)
 
 ### Features
